@@ -19,4 +19,4 @@ output = 'output'
 #
 # BBox, probability = detector.detectFrame(img)
 
-detection_video('Input/Trim840.mp4', cfg=cfg, data = data, weights = weights, save_output = False, show_output = True)
+detection_video('Input/Drone.mp4', cfg=cfg, data = data, weights = weights, save_output = True, show_output = False)
